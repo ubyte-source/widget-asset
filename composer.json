@@ -1,0 +1,26 @@
+{
+  "name": "widget/asset",
+  "type": "library",
+  "description": "Javascript widget asset",
+  "keywords": [
+    "ubyte",
+    "client-side",
+    "widget",
+    "asset"
+  ],
+  "homepage": "https://github.com/energia-source/widget-asset",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paolo Fabris",
+      "email": "support@ubyte.it",
+      "homepage": "https://www.ubyte.it/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Asset\\": "src/"
+    }
+  }
+}

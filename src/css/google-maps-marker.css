@@ -1,0 +1,25 @@
+.marker-icon { display: inline-block; width: 24px; height: 16px; line-height: 1; background-position: center; background-size: contain; background-repeat: no-repeat; }
+.marker-icon.marker-icon-block { background-image: url(../images/markers/block.png); }
+.marker-icon.marker-icon-blue { background-image: url(../images/markers/blue.png); }
+.marker-icon.marker-icon-bypass { background-image: url(../images/markers/bypass.png); }
+.marker-icon.marker-icon-corrupt { background-image: url(../images/markers/corrupt.png); }
+.marker-icon.marker-icon-disconnected { background-image: url(../images/markers/disconnected.png); }
+.marker-icon.marker-icon-emergency { background-image: url(../images/markers/emergency.png); }
+.marker-icon.marker-icon-external { background-image: url(../images/markers/external.png); }
+.marker-icon.marker-icon-fault { background-image: url(../images/markers/fault.png); }
+.marker-icon.marker-icon-fuse { background-image: url(../images/markers/fuse.png); }
+.marker-icon.marker-icon-green { background-image: url(../images/markers/green.png); }
+.marker-icon.marker-icon-ltblue { background-image: url(../images/markers/ltblue.png); }
+.marker-icon.marker-icon-orange { background-image: url(../images/markers/orange.png); }
+.marker-icon.marker-icon-pbs { background-image: url(../images/markers/pbs.png); }
+.marker-icon.marker-icon-pink { background-image: url(../images/markers/pink.png); }
+.marker-icon.marker-icon-power { background-image: url(../images/markers/power.png); }
+.marker-icon.marker-icon-purple { background-image: url(../images/markers/purple.png); }
+.marker-icon.marker-icon-qs3 { background-image: url(../images/markers/qs3.png); }
+.marker-icon.marker-icon-qs4 { background-image: url(../images/markers/qs4.png); }
+.marker-icon.marker-icon-red { background-image: url(../images/markers/red.png); }
+.marker-icon.marker-icon-remote { background-image: url(../images/markers/remote.png); }
+.marker-icon.marker-icon-rule { background-image: url(../images/markers/rule.png); }
+.marker-icon.marker-icon-temperature { background-image: url(../images/markers/temperature.png); }
+.marker-icon.marker-icon-voltage { background-image: url(../images/markers/voltage.png); }
+.marker-icon.marker-icon-yellow { background-image: url(../images/markers/yellow.png); }
