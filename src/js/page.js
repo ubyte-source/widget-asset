@@ -2,6 +2,18 @@
 
     'use strict';
 
+    class Organizer {
+        close(event) {
+            let parametrs = Object.getOwnPropertyNames(this);
+            for (let item = 0; item < parametrs.length; item++) {
+                if (typeof this[parametrs[item]].close !== 'function') continue;
+                this[parametrs[item]].close(event);
+            }
+        }
+    }
+
+    class Widget {}
+
     class Page {
 
         static placehloder() {
@@ -179,5 +191,7 @@
     };
 
     window.Page = Page;
+    window.Page.Widget = Widget;
+    window.Page.Widget.Organizer = Organizer;
 
 })(window);
