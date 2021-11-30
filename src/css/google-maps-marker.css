@@ -2,6 +2,9 @@
 .marker-icon.marker-icon-analyzer2sdata { background-image: url(../images/markers/analyzer2sdata.png); }
 .marker-icon.marker-icon-analyzerinputdata { background-image: url(../images/markers/analyzerinputdata.png); }
 .marker-icon.marker-icon-analyzeroutputdata { background-image: url(../images/markers/analyzeroutputdata.png); }
+.marker-icon.marker-icon-analyzer2sdatapending { background-image: url(../images/markers/analyzer2sdatapending.png); }
+.marker-icon.marker-icon-analyzerinputdatapending { background-image: url(../images/markers/analyzerinputdatapending.png); }
+.marker-icon.marker-icon-analyzeroutputdatapending { background-image: url(../images/markers/analyzeroutputdatapending.png); }
 .marker-icon.marker-icon-bustieinstant { background-image: url(../images/markers/bustieinstant.png); }
 .marker-icon.marker-icon-bustiememory { background-image: url(../images/markers/bustiememory.png); }
 .marker-icon.marker-icon-bypass { background-image: url(../images/markers/bypass.png); }
@@ -21,6 +24,7 @@
 .marker-icon.marker-icon-kmlevel1234setup { background-image: url(../images/markers/kmlevel1234setup.png); }
 .marker-icon.marker-icon-kmlevel1instant { background-image: url(../images/markers/kmlevel1instant.png); }
 .marker-icon.marker-icon-nowdata { background-image: url(../images/markers/nowdata.png); }
+.marker-icon.marker-icon-nowdatapending { background-image: url(../images/markers/nowdatapending.png); }
 .marker-icon.marker-icon-pbs { background-image: url(../images/markers/pbs.png); }
 .marker-icon.marker-icon-permanentbypass { background-image: url(../images/markers/permanentbypass.png); }
 .marker-icon.marker-icon-plc1pzmb1data { background-image: url(../images/markers/plc1pzmb1data.png); }
@@ -31,6 +35,14 @@
 .marker-icon.marker-icon-plc2pzmb2data { background-image: url(../images/markers/plc2pzmb2data.png); }
 .marker-icon.marker-icon-plc2pzmb3data { background-image: url(../images/markers/plc2pzmb3data.png); }
 .marker-icon.marker-icon-plc2pzmb4data { background-image: url(../images/markers/plc2pzmb4data.png); }
+.marker-icon.marker-icon-plc1pzmb1datapending { background-image: url(../images/markers/plc1pzmb1datapending.png); }
+.marker-icon.marker-icon-plc1pzmb2datapending { background-image: url(../images/markers/plc1pzmb2datapending.png); }
+.marker-icon.marker-icon-plc1pzmb3datapending { background-image: url(../images/markers/plc1pzmb3datapending.png); }
+.marker-icon.marker-icon-plc1pzmb4datapending { background-image: url(../images/markers/plc1pzmb4datapending.png); }
+.marker-icon.marker-icon-plc2pzmb1datapending { background-image: url(../images/markers/plc2pzmb1datapending.png); }
+.marker-icon.marker-icon-plc2pzmb2datapending { background-image: url(../images/markers/plc2pzmb2datapending.png); }
+.marker-icon.marker-icon-plc2pzmb3datapending { background-image: url(../images/markers/plc2pzmb3datapending.png); }
+.marker-icon.marker-icon-plc2pzmb4datapending { background-image: url(../images/markers/plc2pzmb4datapending.png); }
 .marker-icon.marker-icon-programming { background-image: url(../images/markers/programming.png); }
 .marker-icon.marker-icon-qs3 { background-image: url(../images/markers/qs3.png); }
 .marker-icon.marker-icon-qs4 { background-image: url(../images/markers/qs4.png); }
