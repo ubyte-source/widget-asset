@@ -42,9 +42,9 @@ document.addEventListener('click', function (ev) {
 ## Structure
 
 library:
-- [window.Page](https://github.com/energia-source/widget-asset#class-windowbutton-usable-methods)
-- [window.Page.Widget](https://github.com/energia-source/widget-asset#class-windowbuttonicon-usable-methods)
-- [window.Page.Widget.Organizer](https://github.com/energia-source/widget-asset#class-windowbuttonloader-usable-methods)
+- [window.Page](https://github.com/energia-source/widget-asset/tree/main/src/js#class-windowbutton-usable-methods)
+- [window.Page.Widget](https://github.com/energia-source/widget-asset/tree/main/src/js#class-windowbuttonicon-usable-methods)
+- [window.Page.Widget.Organizer](https://github.com/energia-source/widget-asset/tree/main/src/js#class-windowbuttonloader-usable-methods)
 
 <br>
 

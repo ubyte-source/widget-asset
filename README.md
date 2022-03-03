@@ -5,9 +5,9 @@ This repository contain a most common asset used on microservice ecosystem proje
 ## Structure
 
 source:
-- [Javascript Classes](https://github.com/energia-source/knight-artifact-iam/tree/main/src/js)
-- [Cascade Style Sheet](https://github.com/energia-source/knight-artifact-iam/tree/main/src/css)
-- [Images](https://github.com/energia-source/knight-artifact-iam/tree/main/src/images)
+- [Javascript Classes](https://github.com/energia-source/widget-assettree/main/src/js)
+- [Cascade Style Sheet](https://github.com/energia-source/widget-assettree/main/src/css)
+- [Images](https://github.com/energia-source/widget-assettree/main/src/images)
 
 ## Built With
 

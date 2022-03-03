@@ -7,8 +7,8 @@ This repository contain a most common asset used on microservice ecosystem proje
 ## Structure
 
 source:
-- [flags](https://github.com/energia-source/knight-artifact-iam/tree/main/src/images/flags)
-- [markers](https://github.com/energia-source/knight-artifact-iam/tree/main/src/images/markers)
+- [flags](https://github.com/energia-source/widget-asset/tree/main/src/images/flags)
+- [markers](https://github.com/energia-source/widget-asset/tree/main/src/images/markers)
 
 ## Built With
 
