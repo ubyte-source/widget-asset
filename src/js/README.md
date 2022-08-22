@@ -210,12 +210,16 @@ Find the closest attribute to the target element
    * `html` — If true, the attribute is searched for in the HTML source code.
  * **Returns:** `h` — closest attribute.
 
-##### `static getUrlParameter(parameter)`
+##### `static getUrlParameter(parameter, manual)`
 
-Given a URL, return the value of the specified parameter
+It takes a parameter and a manual URL and returns the value of the parameter in the URL
 
- * **Parameters:** `parameter` — The name of the parameter to get.
- * **Returns:** `h` — value of the parameter.
+ * **Parameters:**
+   * `parameter` — The parameter you want to get the value of.
+   * `manual` — This is the URL you want to parse. If you don't pass it, it will use the
+
+     current URL.
+ * **Returns:** `h` — value of the parameter passed in.
 
 ##### `addAttribute(input, handle)`
 

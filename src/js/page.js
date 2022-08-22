@@ -336,17 +336,26 @@
             return element;
         }
 
-        /**
-         * Given a URL, return the value of the specified parameter
-         * @param parameter - The name of the parameter to get.
-         * @returns The value of the parameter.
-         */
+       /**
+        * It takes a parameter and a manual URL and returns the value of the parameter in the URL
+        * @param parameter - The parameter you want to get the value of.
+        * @param manual - This is the URL you want to parse. If you don't pass it, it will use the
+        * current URL.
+        * @returns The value of the parameter passed in.
+        */
 
-        static getUrlParameter(parameter) {
-            let url = window.location.search.substring(1), variables = url.split('&');
+        static getUrlParameter(parameter, manual) {
+            let url = typeof manual === 'undefined'
+                    ? window.location.search.substring(1)
+                    : manual,
+                variables = url.split('&');
+
             for (let i = 0; i < variables.length; i++) {
                 let name = variables[i].split('=');
-                if (name[0] === parameter) return name[1] === undefined ? true : decodeURIComponent(name[1]);
+                if (name[0] === parameter)
+                    return name[1] === undefined
+                        ? true
+                        : decodeURIComponent(name[1]);
             }
         }
 
